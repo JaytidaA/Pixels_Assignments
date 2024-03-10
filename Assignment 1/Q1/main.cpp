@@ -27,5 +27,4 @@ int main()
     array_display(input_Arr2D, 3, 4);
 
     return 0;
-    system("pause");
 }
