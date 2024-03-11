@@ -26,5 +26,9 @@ int main()
     array_display(input_Arr1D, 9);
     array_display(input_Arr2D, 3, 4);
 
+    delete [] input_Arr1D;
+    delete [] input_Arr2D;
+    //Deallocating memory
+
     return 0;
 }
