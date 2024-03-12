@@ -36,11 +36,12 @@ int main()
     while(vec_In_Iter != vec_Input.end()){
         MAX = (MAX < *vec_In_Iter)?*vec_In_Iter:MAX;
         MIN = (MIN > *vec_In_Iter)?*vec_In_Iter:MIN;
-        //If MAX(or MIN) is smaller(or bigger) than the next element, then 
+        /*
+            If MAX(or MIN) is smaller(or bigger) than the next element,
+            then the value of MAX(or MIN) must be equal to value of next element.
+        */
         vec_In_Iter++;
     }
-    //Sorting ELments
-    //(Ayo Sort?, sot? shot?)->Om Prakash Mishra Reference😳😳???
 
     cout << "Output:\n";
     cout << "Smallest: " << MIN << endl << "Biggest: " << MAX;
