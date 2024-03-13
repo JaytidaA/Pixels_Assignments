@@ -1,6 +1,6 @@
 /*
     Name: Aaditya J.
-    Pixels Ass1_Q1
+    Pixels Ass1_Q2
 */
 #include <iostream>
 
