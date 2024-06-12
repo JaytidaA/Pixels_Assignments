@@ -25,7 +25,7 @@ int main(int argc, char * argv[])
 
 	std::cout << "Enter the width of the rectangle: "; std::cin >> length;
 	std::cout << "Enter the height of the rectangle: "; std::cin >> breadth;
-    std::cout << "Enter the thickness of the rectangle: "; std::cin >> thickness;
+	std::cout << "Enter the thickness of the rectangle: "; std::cin >> thickness;
 	
 	cv::Point2i bottom_right(top_left.x + length, top_left.y + breadth);
 
